@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <neta charset="utf-8">
+        
+        <title>Kalkulator Persegi</title>
+        <link rel="stylesheet"href="css/Style.css">
+        <script src="JavaScript/Script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+ </head>
+ <body>
+    <header>SqCal</header>
+    <h1 class="JudulPembuka">Selamat datang di SqCal</h1>
+    <h2 class="Pembuka">SqCal merupakan kalkulator berbais web yang dibuat khusus untuk menghitung luas dan keliling persegi guna mempermudah anda untuk menyelesaikan segala pekerjaan atau tugas anda</h2>
+    <header class="header2">Luas Persegi</header>
+    <div class="Div1">
+        <h3 class="Gambar">
+            <img src="https://rpp.co.id/wp-content/uploads/2021/05/persegi.jpg">
+        </h3>
+        <h4 class="RumusLuas">Rumus Luas :</h4>
+        <h5 class="Rumus1">L = S x S</h5>
+        <h6 class="Diketahui1">Diketahui :</h6>
+        <p class="L1">L = Luas</p>
+        <p class="L1">S = Sisi</p>
+    </div>
+    <div class="Div2">
+        <section class="LuasInputSection">
+            <label for="InputField">Luas Persegi</label>
+            <input type="number" id="InputField" name="InputField" placeholder="masukkan sisi">
+        </section>
+        <section class="InputButtonSection">
+            <button onclick="Hitung1(this)">Hitung</button>
+            <button onclick="Reset(this)">Reset</button>
+        </section>
+    </div>
+    <header class="header2">Keliling Persegi</header>
+    <div class="Div3">
+        <h3 class="Gambar">
+            <img src="https://rpp.co.id/wp-content/uploads/2021/05/persegi.jpg">
+        </h3>
+        <h4 class="RumusLuas">Rumus Keliling :</h4>
+        <h5 class="Rumus1">K = 4 x S</h5>
+        <h6 class="Diketahui1">Diketahui :</h6>
+        <p class="L1">K = Keliling</p>
+        <p class="L1">S = Sisi</p>
+    </div>
+    <div class="Div2">
+        <section class="LuasInputSection">
+            <label for="InputField2">Keliling Persegi</label>
+            <input type="number" id="InputField2" placeholder="masukkan sisi">
+        </section>
+        <section class="InputButtonSection">
+            <button onclick="Hitung2()">Hitung</button>
+            <button onclick="Reset2()">Reset</button>
+        </section>
+    </div>
+
+    <footer class="Footer">
+        <div class="FooterBawah" row>
+            <h4 class="Pp">follow us</h4>
+            <div class="MediaSosial">
+              <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://www.facebook.com/?locale=id_ID"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com/login?lang=id"><i class="fa-brands fa-x-twitter"></i></a>
+              <a href="https://www.youtube.com/?hl=id&gl=ID"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="ContactUs">
+                <h4 class="Pp">contact us</h4>
+                <a>e-mail :12345playchristianbernard@gmail.com</a>
+            </div>
+            <div class="FooterAtas">
+                <h5 class="FooterB">SqCal</h5>
+                <h4 class="CopyR">&copy;2023 Christian Bernard | All Rights Reserved</h4>
+            </div>
+        </div>
+    </footer>
+ </body>
+</html>
+
